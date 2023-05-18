@@ -1,9 +1,14 @@
+import Navigation from "./components/Navigation";
 import "./index.css";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="index">
-      <p className="font-head text-4xl text-center">Foodism Restaurant</p>
+    <div className="w-full">
+      <Navigation />
+      <div className="px-2 w-full">
+        <Home />
+      </div>
     </div>
   );
 }

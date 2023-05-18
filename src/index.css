@@ -4,3 +4,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navText {
+  color: rgb(211, 211, 211);
+}
+
+.titleColor {
+  color: #ff3826;
+}
+.subTitleColor {
+  color: #967500;
+}
