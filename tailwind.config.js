@@ -8,6 +8,11 @@ export default {
   ],
   important: "#root",
   theme: {
+    fontFamily: {
+      head: ["Oswald", "sans-serif"],
+      body: ["Raleway", "sans-serif"],
+    },
+
     extend: {},
   },
   plugins: [],
