@@ -19,3 +19,19 @@
 .bgTitleColor {
   background-color: #ff3826;
 }
+
+.serviceCard:hover {
+  border-radius: 0px;
+  box-shadow: 11px 11px 20px #cccccc, -11px -11px 20px #cccccc;
+  transition: all 0.3s ease-in-out;
+}
+
+.serviceCard:hover .serviceTitle {
+  color: #ff3826;
+  transition: all 0.3s ease-in-out;
+}
+
+.serviceCard:hover .serviceContent {
+  color: #646464;
+  transition: all 0.3s ease-in-out;
+}
