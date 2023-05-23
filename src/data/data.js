@@ -1,4 +1,14 @@
-import { s1, s2, s3 } from "../assets/index";
+import {
+  s1,
+  s2,
+  s3,
+  combolist1,
+  combolist2,
+  combolist3,
+  combolist4,
+  combolist5,
+  combolist6,
+} from "../assets/index";
 
 export const ServiceData = [
   {
@@ -18,5 +28,38 @@ export const ServiceData = [
     image: s2,
     title: "EXCELLENT MENU",
     desc: "Savor the Excellence, Delight in Every Dish",
+  },
+];
+
+export const ComboList = [
+  {
+    id: 1,
+    img: combolist1,
+    title: "Sample food",
+  },
+  {
+    id: 2,
+    img: combolist2,
+    title: "Sample food",
+  },
+  {
+    id: 3,
+    img: combolist3,
+    title: "Sample food",
+  },
+  {
+    id: 4,
+    img: combolist4,
+    title: "Sample food",
+  },
+  {
+    id: 5,
+    img: combolist5,
+    title: "Sample food",
+  },
+  {
+    id: 6,
+    img: combolist6,
+    title: "Sample food",
   },
 ];

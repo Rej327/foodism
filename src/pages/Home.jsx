@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import History from "../components/History";
 import Service from "../components/Service";
+import SpecialCombo from "../components/SpecialCombo";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <History />
       <Service />
+      <SpecialCombo />
     </div>
   );
 }
