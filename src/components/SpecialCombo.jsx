@@ -2,7 +2,7 @@ import ComboImageList from "./ComboImageList";
 
 export default function SpecialCombo() {
   return (
-    <div className="bg-[url(./assets/webpic/scombo.jpg)] bg-cover bg-center h-auto ">
+    <div className="bg-[url(./assets/webpic/scombo.jpg)] bg-cover bg-center h-auto pb-24">
       <p className="mx-auto pt-24 font-head text-4xl text-white  text-center w-auto">
         SPECIALS COMBO
       </p>
