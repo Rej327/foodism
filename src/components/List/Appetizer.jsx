@@ -31,7 +31,7 @@ export const Appetizer = () => {
                       className="w-full h-full object-cover hover:scale-125 duration-700 delay-75"
                     />
                   </div>
-                  <div className="w-full flex justify-between my-2 px-2 border-b-2 pb-2">
+                  <div className="w-full flex justify-between my-2 px-2 border-dotted border-b-2 pb-2">
                     <p className="font-head text-center text-2xl text-[#292A2E]">
                       {item.label}
                     </p>
