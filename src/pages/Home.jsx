@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import History from "../components/History";
+import Menu from "../components/Menu";
 import Service from "../components/Service";
 import SpecialCombo from "../components/SpecialCombo";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <History />
       <Service />
       <SpecialCombo />
+      <Menu />
     </div>
   );
 }
