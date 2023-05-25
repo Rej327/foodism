@@ -7,6 +7,8 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import { Appetizer } from "./List/Appetizer";
+import { Burgers } from "./List/Burgers";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -102,7 +104,6 @@ export default function FullWidthTabs() {
             allowScrollButtonsMobile
             aria-label="full width tabs example"
             style={{ fontSize: "18px", gap: "10px", fontFamily: "Oswald" }}
-            centered
           >
             <Tab label="APPETIZERS" {...a11yProps(0)} />
             <Tab label="BURGERS (Beef Patty)" {...a11yProps(1)} />
@@ -122,10 +123,10 @@ export default function FullWidthTabs() {
           onChangeIndex={handleChangeIndex}
         >
           <TabPanel value={value} index={0} dir={theme.direction}>
-            Item One
+            <Appetizer />
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>
-            Item Two
+            <Burgers />
           </TabPanel>
           <TabPanel value={value} index={2} dir={theme.direction}>
             Item Three

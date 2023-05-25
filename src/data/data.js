@@ -8,6 +8,8 @@ import {
   combolist4,
   combolist5,
   combolist6,
+  natchos2,
+  natchos3,
 } from "../assets/index";
 
 export const ServiceData = [
@@ -85,5 +87,56 @@ export const ComboList = [
     img: combolist5,
     title: "Baby Back Ribs",
     price: "269",
+  },
+];
+
+export const MenuList = [
+  {
+    appetizer: [
+      {
+        id: 1,
+        img: natchos3,
+        label: "QUESADILLAS",
+        price: "139",
+      },
+      {
+        id: 2,
+        img: natchos2,
+        label: "LOADED NACHOS",
+        price: "139",
+      },
+      {
+        id: 3,
+        img: natchos2,
+        label: "LOADED NACHOS",
+        price: "139",
+      },
+      {
+        id: 4,
+        img: natchos2,
+        label: "LOADED NACHOS",
+        price: "139",
+      },
+      {
+        id: 5,
+        img: natchos2,
+        label: "LOADED NACHOS",
+        price: "139",
+      },
+    ],
+    burgers: [
+      {
+        id: 1,
+        img: "",
+        label: "HAM BURGER",
+        price: "59",
+      },
+      {
+        id: 2,
+        img: "",
+        label: "CHEESE BURGER",
+        price: "69",
+      },
+    ],
   },
 ];
