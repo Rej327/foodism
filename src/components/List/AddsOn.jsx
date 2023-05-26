@@ -1,19 +1,19 @@
 import React, { useMemo } from "react";
 import { MenuList } from "../../data/data";
 
-export const Burgers = () => {
-  const desiredCategories = ["burgers"]; // Add the desired category names to filter
+export const AddsOn = () => {
+  const desiredCategories = ["addson"]; // Add the desired category names to filter
 
   const filteredMenu = useMemo(() => {
     return MenuList.filter((category) =>
-      desiredCategories.includes(Object.keys(category)[1])
+      desiredCategories.includes(Object.keys(category)[9])
     );
   }, [desiredCategories]);
 
   return (
     <div>
       {filteredMenu.map((category) => {
-        const categoryName = Object.keys(category)[1];
+        const categoryName = Object.keys(category)[9];
         const items = category[categoryName];
 
         return (
