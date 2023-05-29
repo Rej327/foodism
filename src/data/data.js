@@ -456,3 +456,27 @@ export const MenuList = [
     ],
   },
 ];
+
+export const Ratings = [
+  {
+    id: 1,
+    head: "Lorem ipsum dolor sit amet!",
+    name: "Anonymous",
+    feed: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nostrum!",
+    ratings: 2,
+  },
+  {
+    id: 2,
+    head: "Lorem ipsum dolor sit amet!",
+    name: "Anonymous",
+    feed: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nostrum!",
+    ratings: 3.5,
+  },
+  {
+    id: 3,
+    head: "Lorem ipsum dolor sit amet!",
+    name: "Anonymous",
+    feed: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nostrum!",
+    ratings: 5,
+  },
+];

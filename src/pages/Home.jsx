@@ -1,3 +1,4 @@
+import Feedback from "../components/Feedback";
 import Hero from "../components/Hero";
 import History from "../components/History";
 import Menu from "../components/Menu";
@@ -12,6 +13,7 @@ export default function Home() {
       <Service />
       <SpecialCombo />
       <Menu />
+      <Feedback />
     </div>
   );
 }
