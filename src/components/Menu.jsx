@@ -2,7 +2,7 @@ import OurMenuList from "./OurMenuList";
 
 export default function Menu() {
   return (
-    <div>
+    <div className="mb-20">
       <p className="mx-auto pt-24 font-head text-4xl text-[#292A2E]  text-center w-auto">
         OFFERED MENU
       </p>
