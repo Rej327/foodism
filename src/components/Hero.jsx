@@ -4,10 +4,10 @@ export default function Hero() {
       <div className="bg-[url(./assets/webpic/b-2.webp)] bg-cover bg-center h-screen">
         <div className="bg-black bg-opacity-70 w-full h-screen flex items-center">
           <div className=" w-full text-center">
-            <p className="font-head titleColor text-[5.5rem]">
+            <p className="font-head titleColor text-4xl sm:text-7xl lg:text-[5.5rem]">
               Foodism Resto Bar
             </p>
-            <p className="font-head text-[#c0c0c0] text-[4.5rem] -mt-[1.5rem]">
+            <p className="font-head text-[#c0c0c0] text-2xl my-5 sm:text-4xl sm:my-7 lg:text-[4.5rem] lg:my-12">
               Food is memories
             </p>
 

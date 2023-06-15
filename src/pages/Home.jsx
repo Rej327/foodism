@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <div className="w-full">
       <Hero />
-      <History />
+      {/* <History />
       <Service />
       <SpecialCombo />
       <Menu />
       <Book />
-      <Feedback />
+      <Feedback /> */}
     </div>
   );
 }
