@@ -108,6 +108,12 @@ export default function Form() {
             </MenuItem>
           ))}
         </TextField>
+
+        <button className="button-48 mt-5" role="button">
+          <span className="font-head tracking-widest px-5 border-none">
+            SUBMIT
+          </span>
+        </button>
       </div>
     </div>
   );
