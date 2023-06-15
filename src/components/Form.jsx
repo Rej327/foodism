@@ -56,14 +56,14 @@ export default function Form() {
           </span>
         </p>
       </div>
-      <div className="max-w-[900px] m-auto flex flex-wrap gap-5 items-center justify-center">
+      <div className="max-w-[500px] lg:max-w-[900px] m-auto flex flex-wrap gap-5 items-center justify-center">
         <TextField
           id="filled-basic"
           label="Name"
           variant="filled"
           color="primary"
           name="name"
-          className="w-[400px]"
+          className="w-[300px] sm:w-[400px]"
         />
         <TextField
           id="filled-basic"
@@ -71,7 +71,7 @@ export default function Form() {
           variant="filled"
           color="primary"
           name="email"
-          className="w-[400px]"
+          className="w-[300px] sm:w-[400px]"
         />
         <TextField
           id="filled-basic"
@@ -79,14 +79,14 @@ export default function Form() {
           variant="filled"
           color="primary"
           name="number"
-          className="w-[400px]"
+          className="w-[300px] sm:w-[400px]"
         />
         <TextField
           id="outlined-select-currency"
           select
           label="Select"
           defaultValue="Number of Guests"
-          className="bg-[#E8E8E8] bg-opacity-50 hover:bg-opacity-80 duration-300 w-[400px]"
+          className="bg-[#E8E8E8] bg-opacity-50 hover:bg-opacity-80 duration-300 w-[300px] sm:w-[400px]"
         >
           {number.map((option) => (
             <MenuItem key={option.value} value={option.value}>
@@ -100,7 +100,7 @@ export default function Form() {
           select
           label="Select"
           defaultValue="Select Time"
-          className="bg-[#E8E8E8] bg-opacity-50 hover:bg-opacity-80 duration-300 w-[400px]"
+          className="bg-[#E8E8E8] bg-opacity-50 hover:bg-opacity-80 duration-300 w-[300px] sm:w-[400px]"
         >
           {time.map((option) => (
             <MenuItem key={option.value} value={option.value}>

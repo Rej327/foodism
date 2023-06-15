@@ -9,7 +9,7 @@ export default function DateSelector() {
       <DemoContainer components={["DatePicker"]}>
         <DatePicker
           label="Select Date"
-          className="bg-[#E8E8E8] bg-opacity-50 hover:bg-opacity-80 duration-300 w-[400px]"
+          className="bg-[#E8E8E8] bg-opacity-50 hover:bg-opacity-80 duration-300 w-[300px] sm:w-[400px]"
         />
       </DemoContainer>
     </LocalizationProvider>
