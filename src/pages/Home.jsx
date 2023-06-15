@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div className="w-full">
       <Hero />
-      {/* <History />
-      <Service />
+      <History />
+      {/* <Service />
       <SpecialCombo />
       <Menu />
       <Book />

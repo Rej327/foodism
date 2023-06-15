@@ -4,8 +4,8 @@ import { Qoute, LastQoute } from "./Icons";
 export default function History() {
   return (
     <div className="bg-[url(./assets/webpic/about.jpg)] bg-cover bg-center h-screen ">
-      <div className="bg-gradient-to-r from-white via-transparent h-screen absolute">
-        <div className="max-w-[700px] ml-40 mt-44 text-center text-[#292A2E]">
+      <div className="flex item-center bg-gradient-to-r from-white via-transparent h-screen absolute">
+        <div className="mt-10 flex flex-col item-center justify-center lg:max-w-[700px] lg:ml-64 lg:mt-44 text-center text-[#292A2E]">
           <p className="font-head text-4xl text-bold">Resto Bar History</p>
           <p className="font-head text-sm my-5 justify-center flex">
             <Qoute />
@@ -26,7 +26,10 @@ export default function History() {
             ingredients, supporting local producers and farmers, and ensuring
             that each dish we serve tells a story of quality and flavor.
           </p>
-          <Button variant="contained" className="bg-[#fa5142] font-head my-5">
+          <Button
+            variant="contained"
+            className="bg-[#fa5142] w-32 font-head my-5 mx-auto"
+          >
             READ MORE
           </Button>
         </div>
