@@ -11,12 +11,10 @@ function App() {
     <div className="w-full">
       <BrowserRouter>
         <Navigation />
-
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about-us" element={<AboutUs />} />
         </Routes>
-
         <Footer />
       </BrowserRouter>
     </div>
@@ -24,7 +22,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <Home /> */
-}
