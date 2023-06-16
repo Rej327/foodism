@@ -1,4 +1,4 @@
-import { FbLogo } from "./Icons";
+import { BsFacebook } from "react-icons/bs";
 
 export default function Footer() {
   return (
@@ -27,7 +27,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col gap-5 max-w-[250px]">
                 <p className="w-full tracking-wider">THE MENU</p>
-                <div className="flex flex-wrap w-[200px] gap-y-2 gap-x-10">
+                <div className="grid grid-cols-2 grid-rows-5 w-[200px] gap-y-2">
                   <p className="cursor-pointer hover:text-white delay-75 duration-200">
                     Our Special
                   </p>
@@ -75,6 +75,16 @@ export default function Footer() {
                     Subscribe
                   </span>
                 </button>
+              </div>
+            </div>
+            <hr className="my-5 opacity-20" />
+            <div className="flex justify-between font-head text-[#BFBFC1] italic">
+              <p>
+                Copyright © 2023, All Right{" "}
+                <span className="text-[#ff3826]">Foodism Restaurant</span>
+              </p>
+              <div className="w-10 text-white">
+                <BsFacebook className="text-3xl text-[#FF705D] hover:text-[#ff3826] duration-300 delay-75" />
               </div>
             </div>
           </div>
