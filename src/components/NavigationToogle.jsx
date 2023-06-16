@@ -1,29 +1,35 @@
-export default function NavigationToogle() {
+import React from "react";
+
+const NavigationToggle = () => {
   return (
     <div className="fixed">
       <input
-        class="menu-icon"
+        className="menu-icon"
         type="checkbox"
         id="menu-icon"
         name="menu-icon"
       />
-      <label for="menu-icon"></label>
-      <nav class="nav">
-        <ul class="pt-5">
+      <label htmlFor="menu-icon"></label>
+      <nav className="nav">
+        <ul className="pt-5">
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">About Us</a>
+            <a href="/about-us">About Us</a>
           </li>
           <li>
-            <a href="#">Contact Us</a>
+            <a href="/Contact-us">Contact Us</a>
           </li>
           <li>
-            <a href="#">Reservation</a>
+            <a href="https://www.facebook.com/saldy.resultay.9" target="_blank">
+              Reservation
+            </a>
           </li>
         </ul>
       </nav>
     </div>
   );
-}
+};
+
+export default NavigationToggle;
