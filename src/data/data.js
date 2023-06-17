@@ -480,3 +480,42 @@ export const Ratings = [
     ratings: 5,
   },
 ];
+
+export const AboutData = [
+  {
+    id: 1,
+    image: s1,
+    title: "LUNCH & DINNER",
+    desc: "Unleash Your Inner Foodie with Our Delicious Offerings",
+  },
+  {
+    id: 2,
+    image: s3,
+    title: "COFFEE ZONE",
+    desc: "Exceptional Service, Exceptional Cuisine",
+  },
+  {
+    id: 3,
+    image: s2,
+    title: "ICE SHAKE",
+    desc: "Savor the Excellence, Delight in Every Dish",
+  },
+  {
+    id: 4,
+    image: s2,
+    title: "FRESH FOODS",
+    desc: "Savor the Excellence, Delight in Every Dish",
+  },
+  {
+    id: 5,
+    image: s2,
+    title: "EXCELLENT MENU",
+    desc: "Savor the Excellence, Delight in Every Dish",
+  },
+  {
+    id: 6,
+    image: s2,
+    title: "SNACK",
+    desc: "Savor the Excellence, Delight in Every Dish",
+  },
+];

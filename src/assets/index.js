@@ -11,3 +11,8 @@ export { default as combolist5 } from "./shake/shake-5.jpg";
 export { default as combolist6 } from "./pasta/pasta-4.jpg";
 export { default as natchos2 } from "./natchos/natchos-2.jpg";
 export { default as natchos3 } from "./natchos/nathcos-3.jpg";
+export { default as coffee } from "./webpic/coffee.png";
+export { default as freshfoods } from "./webpic/freshfoods.png";
+export { default as icedrinks } from "./webpic/icedrinks.png";
+export { default as shake } from "./webpic/shake.png";
+export { default as snack } from "./webpic/snack.png";
