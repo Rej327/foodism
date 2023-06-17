@@ -1,4 +1,3 @@
-import { s1, s2, s3 } from "../assets/index";
 import { ServiceData } from "../data/data";
 
 export default function Service() {

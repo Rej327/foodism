@@ -1,14 +1,13 @@
 import AboutHeader from "../components/AboutHeader";
-import Book from "../components/Book";
-import Feedback from "../components/Feedback";
-
-import History from "../components/History";
+import HistoryAbout from "../components/HistoryAbout";
+import ServiceAbout from "../components/ServiceAbout";
 
 export default function AboutUs() {
   return (
     <div className="w-full">
       <AboutHeader />
-      <History />
+      <HistoryAbout />
+      <ServiceAbout />
     </div>
   );
 }
