@@ -10,6 +10,12 @@ import {
   combolist6,
   natchos2,
   natchos3,
+  lunchanddinner,
+  snack,
+  shake,
+  coffee,
+  freshfoods,
+  icedrinks,
 } from "../assets/index";
 
 export const ServiceData = [
@@ -484,38 +490,38 @@ export const Ratings = [
 export const AboutData = [
   {
     id: 1,
-    image: s1,
+    image: lunchanddinner,
     title: "LUNCH & DINNER",
     desc: "Unleash Your Inner Foodie with Our Delicious Offerings",
   },
   {
     id: 2,
-    image: s3,
+    image: coffee,
     title: "COFFEE ZONE",
     desc: "Exceptional Service, Exceptional Cuisine",
   },
   {
     id: 3,
-    image: s2,
+    image: shake,
     title: "ICE SHAKE",
     desc: "Savor the Excellence, Delight in Every Dish",
   },
   {
     id: 4,
-    image: s2,
+    image: freshfoods,
     title: "FRESH FOODS",
     desc: "Savor the Excellence, Delight in Every Dish",
   },
   {
     id: 5,
-    image: s2,
-    title: "EXCELLENT MENU",
+    image: snack,
+    title: "SNACK",
     desc: "Savor the Excellence, Delight in Every Dish",
   },
   {
     id: 6,
-    image: s2,
-    title: "SNACK",
+    image: icedrinks,
+    title: "ICE DRINKS",
     desc: "Savor the Excellence, Delight in Every Dish",
   },
 ];
