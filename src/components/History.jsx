@@ -5,7 +5,7 @@ export default function History() {
   return (
     <div className="bg-[url(./assets/webpic/about.jpg)] bg-cover bg-center h-screen ">
       <div className="flex item-center bg-gradient-to-r from-white via-transparent h-screen absolute">
-        <div className="mt-10 flex flex-col item-center justify-center lg:max-w-[700px] lg:ml-64 lg:mt-44 text-center text-[#292A2E]">
+        <div className="flex flex-col item-center justify-center lg:max-w-[700px] lg:ml-64 text-center text-[#292A2E]">
           <p className="font-head text-4xl text-bold">Resto Bar History</p>
           <p className="font-head text-sm my-5 justify-center flex">
             <Qoute />
