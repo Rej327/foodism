@@ -16,3 +16,4 @@ export { default as freshfoods } from "./webpic/freshfoods.png";
 export { default as icedrinks } from "./webpic/icedrinks.png";
 export { default as shake } from "./webpic/shake.png";
 export { default as snack } from "./webpic/snack.png";
+export { default as lunchanddinner } from "./webpic/lunchanddinner.png";
