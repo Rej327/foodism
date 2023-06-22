@@ -5,6 +5,7 @@ import "./index.css";
 import "./navigationToogle.css";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
+import MenuItem from "./pages/MenuItem";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about-us" element={<AboutUs />} />
+          <Route exact path="/menu" element={<MenuItem />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -18,3 +18,4 @@ export { default as shake } from "./webpic/shake.png";
 export { default as snack } from "./webpic/snack.png";
 export { default as lunchanddinner } from "./webpic/lunchanddinner.png";
 export { default as chef } from "./webpic/chef.jpg";
+export { default as burger } from "./burger/burger-3.jpeg";
